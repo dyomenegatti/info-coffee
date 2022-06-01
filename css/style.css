@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+}
+
+main {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #2E1809;
+}
+
+.cardForm {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4ece5;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 1.4rem;
+}
+
+.cardForm img {
+  max-width: 80px;
+  max-height: 30px;
+  display: flex;
+  align-self: start;
+  padding-bottom: 0.2rem;
+}
+
+.cardForm h2 {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.2rem;
+  position: relative;
+  display: flex;
+  align-self: start;
+  color: #2E1809;
+}
+
+.cardForm h2::before {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  bottom: 3px;
+  left: 0;
+  border-radius: 8px;
+  background: linear-gradient(60deg, #987B67, #6b5342);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+
+.inputFields {
+  width:100%;
+}
+
+.inputFields input {
+  width:100%;
+  outline: none;
+  font-size: 0.9rem;
+  color: #2E1809;
+  border-radius: 4px;
+  background-color: #BDB3AC;
+  margin: 0.2rem;
+  padding: 0.4rem;
+}
+
+.recoveryPassword {
+  font-size: 0.7rem;
+  font-weight: 500;
+  display: flex;
+  align-self: end;
+  text-decoration: none;
+  color: #2E1809;
+  cursor: pointer;
+}
+
+.btnLogin {
+  margin-top: 0.4rem;
+  padding: 0.4rem;
+  background: linear-gradient(to left, #987B67, #6b5342);
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 400;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  width: 70%;
+}
+
+.btnLogin:hover {
+  letter-spacing: 0.5px;
+  background: linear-gradient(to right, #987B67, #6b5342);
+}
+
+.messageEmail, .messagePassword, .messageLogin {
+  font-size: 0.8rem;
+  color: red;
+}
+
+.underline {
+  padding: 1rem;
+}
+
+.underline span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #2E1809;
+  position: relative;
+}
+
+.underline span::after, .underline span::before {
+  position: absolute;
+  content: '';
+  height: 0.1rem;
+  width: 3rem;
+  bottom: 50%;
+  right: 100%;
+  margin-right: 0.5rem;
+  background-color: #2E1809;
+}
+
+.underline span::before {
+  left: 100%;
+  margin-left: 0.5rem;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 0.8rem;
+  color: #2E1809;
+}
+
+.registerNow span, .loginNow span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #2E1809;
+}
+
+.registerNow a, .loginNow a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2E1809;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+

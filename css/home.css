@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.9rem;
+}
+
+nav img {
+  max-width: 80px;
+  max-height: 30px;
+  display: flex;
+  align-self: start;
+  padding-bottom: 0.2rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  color: #622F0B;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.partInitial {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 0.9rem;
+  background: url(../images/coffee.jpg);
+  background-color: #cccccc; 
+  height: 500px; 
+  background-position: bottom; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.partInitial h1 {
+  color: #2E1809;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 5rem;
+  padding-top: 11rem;
+}
+
+.partInitial span {
+  color: #2E1809;
+  font-size: 1rem;
+  padding-left: 5rem;
+  padding-top: 0.7rem;
+}
+
+.coffeeAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.coffeeAbout h2 {
+  color: #2E1809;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.coffeeAbout span {
+  color: #2E1809;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+.underline {
+  content: '';
+  height: 0.1rem;
+  width: 100%;
+  background-color: #2E1809;
+}
+
+.coffeeTypes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.coffeeTypes h2 {
+  color: #2E1809;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.coffees {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardCoffee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBE5E1;
+  border-radius: 10px;
+}
+
+.cardCoffee.classic, .cardCoffee.closed, .cardCoffee.geisha {
+  padding: 1rem;
+  margin: 2rem;
+  width: 20%;
+}
+
+.cardCoffee.classic img, .cardCoffee.closed img, .cardCoffee.geisha img {
+  max-width: 60%;
+  max-height: 60%;
+  display: flex;
+  align-self: center;
+}
+
+.cardCoffee.classic h3, .cardCoffee.closed h3, .cardCoffee.geisha h3 {
+  color: #2E1809;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.cardCoffee.classic span, .cardCoffee.closed span, .cardCoffee.geisha span {
+  color: #2E1809;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.partFinal {
+  background-color: #BDB3AC;
+  padding: 1.8rem;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter h2 {
+  color: #2E1809;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.inputField input {
+  padding-bottom: 0.8rem;
+  outline: none;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  padding: 0.5rem;
+  width: 500px;
+  height: 25px;
+}
+
+.inputField button {
+  background-color: #2E1809;
+  color: #f5f5f5;
+  font-weight: 400;
+  padding: 0.4rem;
+  border-radius: 8px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  color: #2E1809;
+}
+
+.contact img {
+  max-width: 90px;
+  max-height: 80px;
+  padding: 0.8rem 0;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+  padding-top: 1rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: #2E1809;
+  padding: 0.2rem;
+}
